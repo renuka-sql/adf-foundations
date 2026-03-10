@@ -1,0 +1,32 @@
+{
+	"name": "DS_SQL_Sales_Import",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DS_SQL_Sales_Import",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ProductName",
+				"type": "varchar"
+			},
+			{
+				"name": "Amount",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SalesData_Import"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

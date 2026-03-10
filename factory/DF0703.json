@@ -1,0 +1,9 @@
+{
+	"name": "DF0703",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f99ad3d8-3777-4ea0-b08d-1b1a85f3760e",
+		"tenantId": "d54d8e5d-190c-4e41-abfd-2e3f1430fdff"
+	}
+}
