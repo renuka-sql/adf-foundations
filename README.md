@@ -1,8 +1,9 @@
 # Azure Data Factory Foundations
 
-Hands-on practice building Azure Data Factory pipelines.
+Hands-on ADF learning projects.
 
-Topics:
-- SQL to Blob pipelines
-- Parameterized datasets
-- Metadata-driven pipelines
+Projects:
+
+1. SQL to Blob Pipeline
+   - Data movement using Copy Activity
+   - Git integration with ADF
