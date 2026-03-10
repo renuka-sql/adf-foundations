@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DF0703"
+		},
+		"LS_BlobStorage_connectionString": {
+			"value": ""
+		},
+		"DS_SQL_Sales_Import_properties_typeProperties_server": {
+			"value": "server0603.database.windows.net"
+		},
+		"DS_SQL_Sales_Import_properties_typeProperties_database": {
+			"value": "database0603"
+		},
+		"LS_AzureSQL_properties_typeProperties_server": {
+			"value": "server0603.database.windows.net"
+		},
+		"LS_AzureSQL_properties_typeProperties_database": {
+			"value": "database0603"
+		}
+	}
+}
